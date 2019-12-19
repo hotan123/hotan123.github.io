@@ -1,72 +1,34 @@
-# Site
-name: "Chuyên sinh"
-title: "Chuyên sinh"
-description: "Chia sẻ kiến thức tài liệu sinh học."
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/logo.png'
-baseurl: ""
-google_analytics: 'UA-46278016-1'
-disqus: ''
-mailchimp-list: ''
-include: ["_pages"]
-permalink: /:title/
+title: Titanosaurus
+description: Grawww,... I'm a clever dinosaur.
+nav: home
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Authors
-authors:
-  tan:
-    name: Tan
-    display_name: Tan
-    gravatar: 6d161734173ac0e1af4a59d297e8d9d8
-    email: honguyenvantan@gmail.com
-    web: https://honguyenvantan.github.io
-    twitter: 
-    description: "Obama"
-  john:
-    name: John
-    display_name: John    
-    avatar: 'assets/images/avatar.png'
-    gravatar: b1cc14991db7a456fcd761680bbc8f81
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
-    description: "This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages."
+title-separator: "-"
 
-# Plugins
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-archives
-    
-# Archives
-jekyll-archives:
-  enabled:
-    - categories
-  layout: archive
-  permalinks:
-    category: '/category/:name/'
-    
-# Pagination 
-paginate: 6
-paginate_path: /page:num/
-    
-# Other
+disqus:
+
+google_analytics:
+
+fb_app_id: 
+
+# Build settings
+timezone: "Europe/Paris"
 markdown: kramdown
-
 kramdown:
   input: GFM
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    block:
-      line_numbers: true
+highlighter: rouge
+permalink: /:title
 
-# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
-adsense: "disabled"
-adsense-data-ad-client: "ca-pub-3412143450191416"
-adsense-data-ad-slot: "1363087678"
+sass:
+  style: compact
 
-# Lazy Images ("enabled" or "disabled")
-lazyimages: "disabled"
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - CNAME
 
-exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
