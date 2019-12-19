@@ -1,24 +1,19 @@
-- title: "Sophie's World"
-  author: Jostein Gaarder
-  intro: "Following Sophie Amundsen, a Norwegian teenager who is introduced to the history of philosophy by Alberto Knox, a middle-aged philosopher."
+- title: "Harry Potter - The complete collection"
+  author: J.K Rowling
+  intro: "I'm rereading it in English version. I read Vietnamese version before."
   goodreads: "https://www.goodreads.com/book/show/10959.Sophie_s_World"
   reading: true
-- title: "Harry Potter à l'école des sorciers"
-  author: J.K. Rowling
-  intro: French version. I reread it for learning French.
-  goodreads: "https://www.goodreads.com/book/show/430569.Harry_Potter_l_cole_des_sorciers"
-  reading: true
-- title: "Con đường Hồi giáo"
-  author: Nguyễn Phương Mai
+- title: "Mắt biếc"
+  author: Nguyễn Nhật Ánh
   goodreads: https://www.goodreads.com/review/show/3027338701?book_show_action=false&from_review_page=1
   mychoice: 1
-- title: "South of the Border, West of the Sun"
-  author: Haruki Murakami
+- title: "Khi hơi thở hoá thing không"
+  author: Paul Kalanithi
   goodreads: https://www.goodreads.com/review/show/3009102301
-- title: "Think like a freak"
-  author: Steven D. Levitt
-  intro: The New York Times bestselling Freakonomics changed the way we see the world, exposing the hidden side of just about everything.
-  goodreads: https://www.goodreads.com/review/show/2956625007
+  intro: "My EX's said that she would give me this book if I choose study being a doctor. But I was not. I'm reading it"
+  reading: true
+- title: "Nhà nàng ở cạnh nhà tôi"
+  author: Li Ni thông minh
 - title: "Homo Deus: A Brief History of Tomorrow"
   author: Yuval Noah Harari
   intro: The next book of Harari after his Sapiens.
@@ -28,8 +23,8 @@
 #   reading: true
 #   intro: A must-read book for ones who want to step first steps on Machine Learning and Data Science.
 #   goodreads: https://www.goodreads.com/book/show/148009.The_Elements_of_Statistical_Learning
-- title: Oxford thương yêu
-  author: Dương Thụy
+- title: Cảm ơn người lớn
+  author: Nguyễn Nhật Ánh
   goodreads: https://www.goodreads.com/book/show/11843183-oxford-th-ng-y-u
 - title: "Sapiens: A Brief History of Humankind"
   author: Yuval Noah Harari

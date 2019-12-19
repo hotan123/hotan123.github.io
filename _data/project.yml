@@ -30,10 +30,9 @@
   description: A beautiful Wordpress theme based on Bootstrap 4 with different layouts of posts.
   source: https://github.com/dinhanhthi/math2itwp
   url: https://math2it.com
-- title: 📝 notethteme
-  description: An AIO Jekyll theme designed for the purpose of taking notes.
-  url: https://dinhanhthi.github.io/NoteTheme/
-  source: https://github.com/dinhanhthi/NoteTheme
+- title: 📝 iBioVN.com
+  description: Website which I created for sharing knowledge about biology..
+  url: http://ibiovn.com/
 - title: 🔥 math2it.com
   description: A Vietnamese site for intuitive knowledge (Maths, Education and Technology).
   source: https://github.com/dinhanhthi/math2itwp
