@@ -77,27 +77,6 @@ js:
 </section>
 
 
-<!-- Drawing -->
-<section id="drawing" class="section">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-10 col-xl-9">
-        {% include heading-title.html title="Picture" href="https://photos.app.goo.gl/9OVEkdTjmtRPg7vC3" icon="fas fa-drafting-compass" %}
-      </div>
-    </div>
-    <div class="row justify-content-center">
-      {% for item in site.data.drawing limit:4 %}
-        <div class="col-md-3 col-sm-4 col-xs-6 gal-item">
-          <div class="box">
-            <a href="{{site.url}}{{site.baseurl}}/img/sketch/{{item.photo}}" data-lightbox="gallery-set" data-title="{{ item.des }}">
-              <img src="{{site.url}}{{site.baseurl}}/img/sketch/{{item.thumbnail}}" class="img-fluid" alt="{{ item.photo }}">
-            </a>
-          </div>
-        </div>
-      {% endfor %}
-    </div>
-  </div>
-</section>
 
 <!-- Contact -->
 <section class="section">

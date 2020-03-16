@@ -1,7 +1,7 @@
 # name used as "fa-{{name}}"
-- title: Perso
+- title: Home
   url: /
-  icon: fas fa-gem
+  icon: fas fa-dna
   name: home
   color: ffeead
   order: 1
@@ -11,7 +11,7 @@
   name: blog
   color: aafdb5
   order: 1
-- title: Me
+- title: About me
   url: /about
   icon: fas fa-fire
   name: about
@@ -23,7 +23,7 @@
   name: reading
   color: d6baff
   order: 3
-- title: Drawing
+- title: picture
   url: "/#drawing"
   icon: fas fa-drafting-compass
   name: drawing
